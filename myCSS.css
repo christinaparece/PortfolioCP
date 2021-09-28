@@ -1,0 +1,251 @@
+body {
+    margin: 0px;
+  }
+
+.navHeader {
+    /* overflow: hidden;  */
+    background-color:  #333;
+    color: white;
+    font-size: large;
+    font-style: normal;
+    font-weight: bolder;
+    width: 100%;
+    height: 40px;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: left; 
+    padding-top: 15px;
+    /* top: 0; */
+
+  }
+
+.navItems{
+    float:right;
+}
+
+.navItems a{
+    /* display: block; */
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.navItems a:hover {
+    background: #f1f1f1;
+    color: black;
+}
+  
+.header{
+    width: 100%;
+    height: 300px;
+    color: white;
+    font-size: large;
+    font-style: normal;
+    font-weight: bolder;
+    background-color: #FEEAF7;
+    margin: 0px;
+    padding-top: 0%;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+
+.header hr{
+    width: 320px;
+    /* text-align: center; */
+}
+
+.aboutMe hr{
+    width: 150px;
+    /* text-align: center; */
+}
+
+.interests hr{
+    width: 150px;
+    /* text-align: center; */
+}
+
+.header img{
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    border-radius: 50%;
+
+}
+
+.header h1{
+    margin: 0px;
+}
+
+.aboutMe h1{
+    margin: 0px;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.interests h1{
+    margin: 5px;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+}
+  
+.aboutMe{
+    width: 100%;
+    height: 450px;
+    color: black;
+    font-size:medium;
+    font-style: normal;
+    background-color: white;
+    margin: 0px;
+    padding-top: 0%;
+    text-shadow: 1px 1px 2px #000000;
+
+}
+
+.interests{
+    width: 100%;
+    height: 375px;
+    color: black;
+    font-size:medium;
+    font-style: normal;
+    background-color: #FAF1F7;
+    margin: 0px;
+    padding-top: 0%;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+.td1 {
+    width: 50%;
+    /* break word splits word  */
+    word-wrap: break-word;
+      /* justify updates the spacing */
+    text-align: justify; 
+    /* text-align: top; */
+    text-justify: inter-word;
+    text-shadow: none;
+    /* padding: 80px; */
+/* display:inline-table; */
+    border-right: 3px double darkgray;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    /* padding: 80px; */
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+
+
+  .td2 {
+    width: 50%;
+    word-wrap: break-word;
+    text-align: justify;
+    /* text-align: top; */
+    text-justify: inter-word;
+    text-shadow: none;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    /* padding: 80px; */
+    padding-right: 100px;
+    padding-left: 100px;
+
+/* display:inline-table; */
+  }
+
+
+  .td3{
+    width: 75%;
+    word-wrap: break-word;
+    text-align: justify; 
+    /* text-align: top; */
+    text-justify: inter-word;
+    text-shadow: none;
+    /* padding: 80px; */
+    padding-top: 20px;
+    padding-bottom: 40px;
+    /* padding: 80px; */
+    padding-right: 100px;
+    padding-left: 100px;
+/* display:inline-table; */
+  }
+
+  .td4{
+    width: 25%;
+    word-wrap: break-word;
+    text-align: justify;
+    /* text-align: top; */
+    text-justify: inter-word;
+    text-shadow: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* padding: 80px; */
+    padding-right: 100px;
+    padding-left: 10px;
+/* display:inline-table; */
+  }
+
+  .mainDiv{
+    width: 100%;
+    height: 780px;
+    color: white;
+    font-size: large;
+    font-style: normal;
+    font-weight: bolder;
+    background-color: #FEEAF7;
+    margin: 0px;
+    padding-top: 0%;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  .mainDiv h1{
+    margin: 0px;
+    padding-top: 100px;
+    font-size: 60px;
+    font-weight: normal;
+    text-align: center;
+    color: rgb(78, 78, 78);
+}
+
+.mainDiv hr{
+    width: 350px;
+    /* text-align: center; */
+}
+
+input[type=text] {
+    width: 270px;
+    background-color: #f7e1f0;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=email] {
+    width: 270px;
+    background-color:  #f7e1f0;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit] {
+    width: 135px;
+    background-color:  rgb(146, 145, 145);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(90, 90, 90);
+  }
